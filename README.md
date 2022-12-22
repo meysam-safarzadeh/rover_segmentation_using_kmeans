@@ -8,7 +8,7 @@ In this project, the goal is to segment the picture into rover, background, and 
 
 Figure 1 The illustration of the algorithm
 
-## Method
+## Method & Results
 
 #### Kmeans
 
@@ -67,7 +67,7 @@ The final result after applying morphological operations for picture 2 is shown 
 
 Figure 7  Rover segmented in picture 2 
 
-## Results 
+## Conclusion 
 
 To conclude, the best result is obtained by using the HSV color space plus adding position as a feature. This is because the third value of the image in HSV contains the color information which is a more discriminative feature compared to the RGB channels. Plus, by adding the location of each pixel to this, the result is going to be better. In Figure 8, picture 4 is shown in RGB and HSV color space. 
 
