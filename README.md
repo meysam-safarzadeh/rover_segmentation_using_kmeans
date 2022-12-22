@@ -23,6 +23,12 @@ Moreover, to find the best number of clusters we tried GAP statistics to determi
 
 Figure 2 GAP values
 
+
+Table 1 Final results of segmentation with different combination of settings (The white area is the segmented part in each image)
+![image](https://user-images.githubusercontent.com/51737180/209219965-536328b2-5c80-4f3a-b2fc-f1fd89073fb7.png)
+![image](https://user-images.githubusercontent.com/51737180/209220015-5626aa45-89c9-489f-b7d0-50e9ebaf14e0.png)
+
+
 #### Color space
 
 First, we tried three-color spaces including RGB, HSI, and HSV. Since the input of the K-means algorithm is the number of samples * the number of features, each channel of the pixel value is one feature of the input data. What we expected is that HSI and HSV should be similar due to a small difference between them. In HSI maximum intensity is pure white while in HSV maximum value is a color with a white light shining at that. As it is shown in rows 1, 5, and 9 the overall quality of segmentation is the same but in RGB space we can see a better result (for example picture 3).
